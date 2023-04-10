@@ -4,6 +4,7 @@ go 1.16
 
 require (
 	github.com/BurntSushi/toml v0.3.1
+	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/kelseyhightower/memkv v0.1.1
 	github.com/onsi/ginkgo v1.14.1
 	github.com/onsi/gomega v1.10.1
@@ -43,5 +44,7 @@ replace (
 )
 
 replace github.com/kelseyhightower/confd => github.com/projectcalico/confd v1.0.1-0.20211122095224-9387a0d3fe1e
+
+replace github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 
 replace github.com/sirupsen/logrus => github.com/projectcalico/logrus v1.0.4-calico
