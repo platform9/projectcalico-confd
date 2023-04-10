@@ -49,4 +49,6 @@ replace github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 
 replace github.com/gogo/protobuf => github.com/gogo/protobuf v1.3.2
 
+replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.1
+
 replace github.com/sirupsen/logrus => github.com/projectcalico/logrus v1.0.4-calico
