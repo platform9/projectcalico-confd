@@ -10,7 +10,7 @@ require (
 	github.com/onsi/gomega v1.10.1
 	github.com/projectcalico/libcalico-go v1.7.2-0.20211119233600-e3f7c620522a
 	github.com/projectcalico/typha v0.7.3-0.20211122094324-72659b47ead5
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.6.0
 	k8s.io/api v0.19.6
 	k8s.io/apimachinery v0.19.6
 	k8s.io/client-go v0.19.6
@@ -46,5 +46,7 @@ replace (
 replace github.com/kelseyhightower/confd => github.com/projectcalico/confd v1.0.1-0.20211122095224-9387a0d3fe1e
 
 replace github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
+
+replace github.com/gogo/protobuf => github.com/gogo/protobuf v1.3.2
 
 replace github.com/sirupsen/logrus => github.com/projectcalico/logrus v1.0.4-calico
