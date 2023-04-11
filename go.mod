@@ -55,6 +55,8 @@ replace golang.org/x/crypto => golang.org/x/crypto v0.0.0-20220314234659-1baeb1c
 
 replace golang.org/x/text => golang.org/x/text v0.3.8
 
+replace github.com/satori/go.uuid => github.com/google/uuid v1.3.0
+
 replace golang.org/x/net => golang.org/x/net v0.7.0
 
 replace github.com/sirupsen/logrus => github.com/projectcalico/logrus v1.0.4-calico
